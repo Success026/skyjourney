@@ -57,3 +57,25 @@ export interface Booking {
   createdAt: string;
   updatedAt: string;
 }
+
+export interface AdminStats{
+  totalBookings: number;
+  totalRevenue: number;
+  activeUsers: number;
+  flightsThisMonth: number;
+  popularRoutes: {
+    route: string;
+    bookings: number;
+  }[];
+}
+
+export interface User{
+  id: string;
+  email: string;
+  firstName: string;
+  lastName: string;
+  phone?: string;
+  createdAt: string;
+  updatedAt: string;
+  isAdmin?: boolean; // Optional field to indicate if the user is an admin
+}

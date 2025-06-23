@@ -1,4 +1,4 @@
-import { aviationStackAPI } from '../../../../lib/aviationstack'
+import { aviationStackAPI } from ''
 
 export async function GET(request) {
   try {

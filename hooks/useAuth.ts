@@ -1,16 +1,17 @@
 // hooks/useAuth.ts
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
+import type { User } from '@supabase/supabase-js';
 
 export function useAuth() {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<unknown>(null);
 
   useEffect(() => {
     const fetchUser = async () => {
-      const { data: session } = await supabase.auth.getSession();
-      setUser(session?.user || null);
+      const { data: sessionData } = await supabase.auth.getSession();
+      setUser(sessionData.session?.user || null);
       setLoading(false);
     };
 

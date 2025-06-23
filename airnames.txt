@@ -1,0 +1,185 @@
+IATA code – MAWB	IATA code	IATA airlines
+IATA – 001	IATA – AA	American Airlines
+IATA – 002	IATA – 2G	CargoItalia (alternate)
+IATA – 005	IATA – CO	Continental Airlines
+IATA – 006	IATA – DL	Delta Air Lines
+IATA – 012	IATA – NW	Northwest Airlines (alternate site)
+IATA – 014	IATA – AC	Air Canada
+IATA – 016	IATA – UA	United Airlines Cargo
+IATA – 018	IATA – CP	Canadian Airlines Int´l
+IATA – 020	IATA – LH	Lufthansa Cargo AG
+IATA – 023	IATA – FX	Fedex
+IATA – 027	IATA – AS	Alaska Airlines
+IATA – 037	IATA – US	USAirways
+IATA – 042	IATA – RG	VARIG Brazilian Airlines
+IATA – 043	IATA – KA	Dragonair
+IATA – 045	IATA – LA	LAN Chile
+IATA – 047	IATA – TP	TAP Air Portugal
+IATA – 048	IATA – CY	Cyprus Airways
+IATA – 050	IATA – OA	Olympic Airways
+IATA – 053	IATA – EI	Aer Lingus Cargo
+IATA – 055	IATA – AZ	Alitalia
+IATA – 057	IATA – AF	Air France
+IATA – 058	IATA – IC	Indian Airlines
+IATA – 061	IATA – HM	Air Seychelles
+IATA – 064	IATA – OK	Czech Airlines
+IATA – 065	IATA – SV	Saudi Arabian Airlines
+IATA – 070	IATA – RB	Syrian Arab Airlines
+IATA – 071	IATA – ET	Ethiopian Airlines
+IATA – 072	IATA – GF	Gulf Air
+IATA – 074	IATA – KL	KLM Cargo
+IATA – 075	IATA – IB	Iberia
+IATA – 076	IATA – ME	Middle East Airlines
+IATA – 077	IATA – MS	Egyptair
+IATA – 079	IATA – PR	Philippine Airlines
+IATA – 057	IATA – AF	Air France
+IATA – 080	IATA – LO	LOT Polish Airlines
+IATA – 081	IATA – QF	Qantas Airways
+IATA – 082	IATA – SN	Brussels Airlines
+IATA – 083	IATA – SA	South African Airways
+IATA – 086	IATA – NZ	Air New Zealand
+IATA – 090	IATA – IT	Kingfisher Airlines
+IATA – 093	IATA – KD	KD Avia
+IATA – 096	IATA – IR	Iran Air
+IATA – 098	IATA – AI	Air India
+IATA – 105	IATA – AY	Finnair
+IATA – 106	IATA – BW	Caribbean Airlines
+IATA – 108	IATA – FI	Icelandair
+IATA – 112	IATA – CK	China Cargo Airlines
+IATA – 114	IATA – LY	EL AL
+IATA – 115	IATA – JU	JAT Airways
+IATA – 117	IATA – SK	SAS-Scandinavian Airlines System
+IATA – 118	IATA – DT	TAAG Angola Airlines
+IATA – 119	IATA – LM	Air ALM
+IATA – 124	IATA – AH	Air Algerie
+IATA – 125	IATA – BA	British Airways
+IATA – 126	IATA – GA	Garuda Indonesia
+IATA – 129	IATA – MP	Martinair Cargo
+IATA – 131	IATA – JL	Japan Airlines
+IATA – 133	IATA – LR	LACSA Airlines of Costa Rica
+IATA – 139	IATA – AM	Aeromexico Cargo
+IATA – 140	IATA – LI	LIAT Airlines
+IATA – 147	IATA – AT	Royal Air Maroc
+IATA – 148	IATA – LN	Libyan Airlines
+IATA – 157	IATA – QR	Qatar Airways
+IATA – 160	IATA – CX	Cathay Pacific Airways
+IATA – 163	IATA – 3V	TNT Airways
+IATA – 165	IATA – JP	Adria Airways
+IATA – 172	IATA – CV	Cargolux Airlines
+IATA – 176	IATA – EK	Emirates
+IATA – 180	IATA – KE	Korean Air
+IATA – 182	IATA – MA	Malev Hungarian Airlines
+IATA – 183	IATA – RG	VARIG Brazilian Airlines
+IATA – 189	IATA – JI	Jade Cargo International
+IATA – 201	IATA – JM	Air Jamaica
+IATA – 202	IATA – TA	TACA
+IATA – 205	IATA – NH	ANA All Nippon Cargo
+IATA – 214	IATA – PK	Pakistan Int´l Airlines
+IATA – 217	IATA – TG	Thai Airways
+IATA – 229	IATA – KU	Kuwait Airways
+IATA – 230	IATA – CM	Copa Airlines Cargo
+IATA – 231	IATA – NG	Lauda Air
+IATA – 232	IATA – MH	Malaysian Airline System
+IATA – 232	IATA – MH	 
+IATA – 232	IATA – MH	Homepage
+IATA – 234	IATA – JD	Japan Air System
+IATA – 235	IATA – TK	Turkish Airlines
+IATA – 236	IATA – BD	British Midland Airways
+IATA – 239	IATA – MK	Air Mauritius
+IATA – 257	IATA – OS	Austrian Cargo
+IATA – 258	IATA – MD	Air Madagascar
+IATA – 265	IATA – EF	Far Eastern Air Transport
+IATA – 266	IATA – LT	LTU (Leisure Cargo)
+IATA – 270	IATA – TL	Trans Mediterranean Airways
+IATA – 272	IATA – K4	Kalitta Air
+IATA – 288	IATA – LD	Air Hong Kong
+IATA – 297	IATA – CI	China Airlines
+IATA – 301	IATA – 5S	Global Aviation and Services
+IATA – 302	IATA – OO	Sky West Airlines
+IATA – 307	IATA – WE	Centurion Air Cargo
+IATA – 324	IATA – SC	Shandong Airlines (Chinese)
+IATA – 330	IATA – RF	Florida West International Airways
+IATA – 345	IATA – NC	Northern Air Cargo
+IATA – 356	IATA – C8	Cargolux Italia
+IATA – 369	IATA – 5Y	Atlas Air
+IATA – 378	IATA – KX	Cayman Airways
+IATA – 390	IATA – A3	Aegean Airlines
+IATA – 403	IATA – PO	Polar Air Cargo
+IATA – 404	IATA – JW	Arrow Air
+IATA – 406	IATA – 5X	UPS Air Cargo
+IATA – 416	IATA – N8	National Air Cargo
+IATA – 421	IATA – S7	Siberia Airlines
+IATA – 423	IATA – ER	DHL Aviation/DHL Airways
+IATA – 465	IATA – KC	Air Astana
+IATA – 479	IATA – ZH	Shenzhen Airlines (Chinese)
+IATA – 507	IATA – SU	Aeroflot
+IATA – 512	IATA – RJ	Royal Jordanian
+IATA – 526	IATA – WN	Southwest Airlines
+IATA – 529	IATA – A2	Cielos Airlines
+IATA – 549	IATA – M3	ABSA Aerolinhas Brasileiras
+IATA – 552	IATA – M2	Mario’s Air
+IATA – 564	IATA – XQ	Sun Express
+IATA – 566	IATA – PS	Ukraine Int´l Airlines
+IATA – 572	IATA – 9U	Air Moldova
+IATA – 575	IATA – 7C	Coyne Airways
+IATA – 580	IATA – RU	AirBridge Cargo
+IATA – 589	IATA – 9W	Jet Airways
+IATA – 603	IATA – UL	SriLankan Cargo
+IATA – 603	IATA – UL	more AWB tracking
+IATA – 604	IATA – UY	Cameroon Airlines
+IATA – 607	IATA – EY	ETIHAD Airways
+IATA – 615	IATA – QY	DHL Aviation / European Air Transport
+IATA – 618	IATA – SQ	Singapore Airlines
+IATA – 623	IATA – FB	Bulgaria Air
+IATA – 631	IATA – GL	Air Greenland
+IATA – 635	IATA – IY	Yemenia Yemen Airways
+IATA – 643	IATA – KM	Air Malta
+IATA – 656	IATA – PX	Air Niugini
+IATA – 657	IATA – BT	Air Baltic
+IATA – 672	IATA – BI	Royal Brunei Airlines
+IATA – 675	IATA – NX	Air Macau
+IATA – 695	IATA – BR	Eva Airways
+IATA – 700	IATA – 5C	CAL Cargo Air Lines
+IATA – 706	IATA – KQ	Kenya Airways
+IATA – 716	IATA – MB	MNG Airlines
+IATA – 724	IATA – LX	Swiss
+IATA – 729	IATA – QT	Tampa Airlines
+IATA – 731	IATA – MF	Xiamen Airlines
+IATA – 737	IATA – SP	SATA Air Acores
+IATA – 738	IATA – VN	Vietnam Airlines
+IATA – 757	IATA – SM	Avient
+IATA – 771	IATA – J2	Azerbaijan Airlines
+IATA – 774	IATA – FM	Shanghai Airlines
+IATA – 781	IATA – MU	China Eastern Airlines
+IATA – 784	IATA – CZ	China Southern Airlines
+IATA – 800	IATA – GD	Grandstar Cargo
+IATA – 803	IATA – AE	Mandarin Airlines
+IATA – 810	IATA – M6	Amerijet International
+IATA – 817	IATA – S6	SAC South American Airways
+IATA – 825	IATA – F4	Shanghai Airlines Cargo
+IATA – 831	IATA – OU	Croatia Airlines
+IATA – 851	IATA – N8	Hong Kong Airlines
+IATA – 858	IATA – FK	Africa West
+IATA – 862	IATA – EV	Atlantic Southeast Airlines
+IATA – 865	IATA – MY	MASAir
+IATA – 870	IATA – VV	Aerosvit
+IATA – 871	IATA – Y8	Yangtze River Express Airlines
+IATA – 873	IATA – 6R	AeroUnion
+IATA – 876	IATA – 3U	Sichuan Airlines
+IATA – 880	IATA – HU	Hainan Airlines (Chinese)
+IATA – 881	IATA – DE	Condor Flugdienst
+IATA – 886	IATA – OH	Comair
+IATA – 901	IATA – B1	TAB Cargo
+IATA – 907	IATA – QN	Air Armenia
+IATA – 928	IATA – UZ	Buraq Air Transport (Arabic only)
+IATA – 932	IATA – VS	Virgin Atlantic
+IATA – 933	IATA – KZ	Nippon Cargo Airlines
+IATA – 957	IATA – JJ	TAM Brazilian Airlines
+IATA – 958	IATA – 7I	Insel Air Cargo
+IATA – 960	IATA – OV	Estonian Air
+IATA – 976	IATA – QO	Aeromexpress Cargo
+IATA – 988	IATA – OZ	Asiana Airlines
+IATA – 989	IATA – IJ	Great Wall Airlines
+IATA – 996	IATA – UX	Air Europa Cargo
+IATA – 997	IATA – BG	Biman Bangladesh
+IATA – 999	IATA – CA	Air China

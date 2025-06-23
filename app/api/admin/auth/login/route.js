@@ -1,8 +1,8 @@
 import { cookies } from 'next/headers'
 
 // Replace with real authentication
-const ADMIN_USER = 'scott'
-const ADMIN_PASSWORD = '123flyhigh' // In production, use hashed passwords!
+const ADMIN_USER = 'Success'
+const ADMIN_PASSWORD = 'Success@uni026' // In production, use hashed passwords!
 
 export async function POST(request) {
   const data = await request.json()

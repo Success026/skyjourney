@@ -1,3 +1,6 @@
+import { Flight } from './flight';
+import { User } from './user'; // Assuming User type is defined in types/user.ts
+
 export interface Booking {
     id: string;
     flightId: string;

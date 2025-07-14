@@ -1,5 +1,5 @@
 'use client'
-import { Suspense, useState } from 'react'
+import { Suspense, useState, useEffect } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { Plane, User, Mail, Phone, CreditCard } from 'lucide-react'
 
@@ -20,7 +20,8 @@ function FlightBookingPage() {
     return_date: searchParams.get('return') || '',
     passengers: parseInt(searchParams.get('passengers')) || 1,
     class: searchParams.get('class') || 'economy',
-    price: parseFloat(searchParams.get('price')) || 0
+    price: parseFloat(searchParams.get('price')) || 0,
+    seat: searchParams.get('seat') || '' // Add this line to get seat from URL params
   })
 
   const handleSubmit = async (e) => {
@@ -205,9 +206,13 @@ function TicketPreview({ bookingData }) {
   };
   
   const userName = bookingData.user_name || "Guest Traveler";
-  const seatRow = Math.abs(userName.charCodeAt(0) % 40) + 1;
-  const seatLetter = "ABCDEF"[Math.abs(userName.charCodeAt(userName.length-1) % 6)];
-  const seat = `${seatRow}${seatLetter}`;
+  // Use the seat from bookingData if available, otherwise generate one
+  let seat = bookingData.seat;
+  if (!seat) {
+    const seatRow = Math.abs(userName.charCodeAt(0) % 40) + 1;
+    const seatLetter = "ABCDEF"[Math.abs(userName.charCodeAt(userName.length-1) % 6)];
+    seat = `${seatRow}${seatLetter}`;
+  }
   const gate = Math.abs((userName.charCodeAt(0) + userName.charCodeAt(userName.length-1)) % 30) + 1;
   const boardTime = "10:10";
   
@@ -232,6 +237,16 @@ function TicketPreview({ bookingData }) {
   const barcodeNumber = userName.length > 0 
     ? String(userName.split('').reduce((a, b) => a + b.charCodeAt(0), 0) * 1000000).slice(0, 10)
     : String(Math.floor(Math.random() * 10000000000)).padStart(10, '0');
+
+  // Update bookingData with the generated seat if it wasn't provided
+  useEffect(() => {
+    if (!bookingData.seat && seat) {
+      setBookingData(prev => ({
+        ...prev,
+        seat: seat
+      }));
+    }
+  }, [seat, bookingData.seat]);
 
   return (
     <div className="boarding-pass rounded-lg shadow-2xl overflow-hidden max-w-4xl w-full flex">

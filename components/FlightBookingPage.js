@@ -129,7 +129,15 @@ function FlightBookingPage() {
           {/* Ticket Preview */}
           {showTicket && (
             <div className="lg:col-span-2 flex flex-col items-center justify-center">
-              <TicketPreview bookingData={bookingData} />
+              <TicketPreview 
+                bookingData={bookingData} 
+                onSeatGenerated={(seat) => {
+                  setBookingData(prev => ({
+                    ...prev,
+                    seat: seat
+                  }));
+                }}
+              />
               
               {/* Book Flight Button */}
               <button 
@@ -195,7 +203,7 @@ function FlightBookingPage() {
 }
 
 // --- Ticket Preview Component ---
-function TicketPreview({ bookingData }) {
+function TicketPreview({ bookingData, onSeatGenerated }) {
   // Generate consistent pseudo-random seat and gate numbers based on user name
   const getRandomElement = (arr, seed) => {
     const hash = seed.split('').reduce((a, b) => {
@@ -238,15 +246,12 @@ function TicketPreview({ bookingData }) {
     ? String(userName.split('').reduce((a, b) => a + b.charCodeAt(0), 0) * 1000000).slice(0, 10)
     : String(Math.floor(Math.random() * 10000000000)).padStart(10, '0');
 
-  // Update bookingData with the generated seat if it wasn't provided
+  // When a seat is generated, call the callback
   useEffect(() => {
     if (!bookingData.seat && seat) {
-      setBookingData(prev => ({
-        ...prev,
-        seat: seat
-      }));
+      onSeatGenerated(seat);
     }
-  }, [seat, bookingData.seat]);
+  }, [seat, bookingData.seat, onSeatGenerated]);
 
   return (
     <div className="boarding-pass rounded-lg shadow-2xl overflow-hidden max-w-4xl w-full flex">
